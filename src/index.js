@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Home from './pages/Home';
-import Register from './pages/Register';
+import App from './routes/App';
+
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import $ from 'jquery';
@@ -11,7 +11,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Home />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

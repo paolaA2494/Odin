@@ -1,5 +1,5 @@
-import React from 'react'
-
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 //Tipo clase stateful, tiene estado
 
@@ -32,7 +32,8 @@ class CardPricing extends React.Component {
                     <li>{pricing.support}</li>
                     <li>{pricing.help}</li>
                   </ul>
-                  <button type="button" className="btn btn-lg btn-block btn-outline-primary">{pricing.buttonInfo}</button>
+                  <Link to="/iniciosesion" className="text-decoration-none">
+                  <button type="button"  className="btn btn-lg btn-block btn-outline-primary" >{pricing.buttonInfo}</button></Link>
                 </div>
               </div>
               )
